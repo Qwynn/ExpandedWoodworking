@@ -8,7 +8,7 @@
 		<description>Raw wood from trees or other fibrous plants. When processed it becomes useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch.</description>
 		<graphicData>
 			<texPath>Resources/WoodLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(181,137,88)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -49,7 +49,6 @@
 		</stuffProps>
 		<isBodyPartOrImplant>true</isBodyPartOrImplant>
 		<thingCategories>
-			<li>ResourcesRaw</li>
 			<li>WoodTypes</li>
 		</thingCategories>
 		<techHediffsTags>
@@ -73,7 +72,7 @@
 		<description>Raw wood from trees or other fibrous plants. When processed it becomes useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch.</description>
 		<graphicData>
 			<texPath>Resources/WoodLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(207,174,129)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -113,8 +112,7 @@
 			</statFactors>
 		</stuffProps>
 		<isBodyPartOrImplant>true</isBodyPartOrImplant>
-		<thingCategories>
-			<li>ResourcesRaw</li>
+		<thingCategories>		
 			<li>WoodTypes</li>
 		</thingCategories>
 		<techHediffsTags>
@@ -138,7 +136,7 @@
 		<description>Raw wood from trees or other fibrous plants. When processed it becomes useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch.</description>
 		<graphicData>
 			<texPath>Resources/WoodLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(241,190,133)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -179,7 +177,6 @@
 		</stuffProps>
 		<isBodyPartOrImplant>true</isBodyPartOrImplant>
 		<thingCategories>
-			<li>ResourcesRaw</li>
 			<li>WoodTypes</li>
 		</thingCategories>
 		<techHediffsTags>
@@ -203,7 +200,7 @@
 		<description>Raw wood from trees or other fibrous plants. When processed it becomes useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch.</description>
 		<graphicData>
 			<texPath>Resources/WoodLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(251,217,172)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -244,7 +241,6 @@
 		</stuffProps>
 		<isBodyPartOrImplant>true</isBodyPartOrImplant>
 		<thingCategories>
-			<li>ResourcesRaw</li>
 			<li>WoodTypes</li>
 		</thingCategories>
 		<techHediffsTags>
@@ -268,7 +264,7 @@
 		<description>Raw wood from trees or other fibrous plants. When processed it becomes useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch.</description>
 		<graphicData>
 			<texPath>Resources/WoodLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(123,47,24)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -309,7 +305,6 @@
 		</stuffProps>
 		<isBodyPartOrImplant>true</isBodyPartOrImplant>
 		<thingCategories>
-			<li>ResourcesRaw</li>
 			<li>WoodTypes</li>
 		</thingCategories>
 		<techHediffsTags>
@@ -333,7 +328,7 @@
 		<description>Raw wood from trees or other fibrous plants. When processed it becomes useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch.</description>
 		<graphicData>
 			<texPath>Resources/WoodLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<color>(120,86,51)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -374,7 +369,6 @@
 		</stuffProps>
 		<isBodyPartOrImplant>true</isBodyPartOrImplant>
 		<thingCategories>
-			<li>ResourcesRaw</li>
 			<li>WoodTypes</li>
 		</thingCategories>
 		<techHediffsTags>
