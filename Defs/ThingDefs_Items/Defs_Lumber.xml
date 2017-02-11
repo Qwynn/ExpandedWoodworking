@@ -1,0 +1,251 @@
+<Defs> 
+
+<!-- Wood Trees -->
+
+	<ThingDef Name="WoodLumberBase" ParentName="ResourceBase" Abstract="True">
+		<description>Processed lumber. Mostly useful for building long-lasting, simple structures and furniture.</description>
+		<graphicData>
+			<texPath>Resources/WoodLumber</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.4</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<MeleeWeapon_DamageAmount>8</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>WoodLumber</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>0.20</commonality> <!-- because there are so many wood types -->
+			<appearance>Planks</appearance>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<Beauty>1.25</Beauty>
+				<MarketValue>0.2</MarketValue>
+				<MaxHitPoints>0.4</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<WorkToBuild>1.0</WorkToBuild>
+				<WorkToMake>1.0</WorkToMake>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_Cooldown>0.9</MeleeWeapon_Cooldown>
+			</statFactors>
+		</stuffProps>
+		<isBodyPartOrImplant>true</isBodyPartOrImplant>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+  
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>WoodLog</defName>
+		<label>mixed lumber</label>
+		<description>Various kinds of processed lumber all bundled together. For when you care more about function than form.</description>
+		<graphicData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(133,97,67)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>wooden</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberOak</defName>
+		<label>oak lumber</label>
+		<description>Processed oak lumber.</description>
+		<graphicData>
+			<color>(181,137,88)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(181,137,88)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>oak wood</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberPoplar</defName>
+		<label>poplar lumber</label>
+		<description>Processed poplar lumber.</description>
+		<graphicData>
+			<color>(207,174,129)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(207,174,129)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>poplar wood</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberPine</defName>
+		<label>pine lumber</label>
+		<description>Processed pine lumber.</description>
+		<graphicData>
+			<color>(241,190,133)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(241,190,133)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>pine wood</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberBirch</defName>
+		<label>birch lumber</label>
+		<description>Processed birch lumber.</description>
+		<graphicData>
+			<color>(251,217,172)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(251,217,172)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>birch wood</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberCecropia</defName>
+		<label>cecropia lumber</label>
+		<description>Processed cecropia lumber.</description>
+		<graphicData>
+			<color>(123,47,24)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(123,47,24)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>cecropia wood</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberTeak</defName>
+		<label>teak lumber</label>
+		<description>Processed teak lumber.</description>
+		<graphicData>
+			<color>(120,86,51)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(120,86,51)</color>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<stuffAdjective>teak wood</stuffAdjective>
+			<statFactors>
+					<Beauty>1.1</Beauty>  
+					<MarketValue>0.4</MarketValue>
+					<MaxHitPoints>1.4</MaxHitPoints>
+					<WorkToBuild>5.0</WorkToBuild>
+					<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+  
+ </Defs>
