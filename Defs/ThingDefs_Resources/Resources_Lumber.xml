@@ -97,7 +97,7 @@
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<stuffAdjective>oak wood</stuffAdjective>
+			<stuffAdjective>oak</stuffAdjective>
 			<statFactors>
 					<Beauty>1.1</Beauty>  
 					<MarketValue>0.4</MarketValue>
@@ -125,7 +125,7 @@
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<stuffAdjective>poplar wood</stuffAdjective>
+			<stuffAdjective>poplar</stuffAdjective>
 			<statFactors>
 					<Beauty>1.1</Beauty>  
 					<MarketValue>0.4</MarketValue>
@@ -153,7 +153,7 @@
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<stuffAdjective>pine wood</stuffAdjective>
+			<stuffAdjective>pine</stuffAdjective>
 			<statFactors>
 					<Beauty>1.1</Beauty>  
 					<MarketValue>0.4</MarketValue>
@@ -209,7 +209,7 @@
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<stuffAdjective>cecropia wood</stuffAdjective>
+			<stuffAdjective>cecropia</stuffAdjective>
 			<statFactors>
 					<Beauty>1.1</Beauty>  
 					<MarketValue>0.4</MarketValue>
@@ -237,7 +237,7 @@
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<stuffAdjective>teak wood</stuffAdjective>
+			<stuffAdjective>teak</stuffAdjective>
 			<statFactors>
 					<Beauty>1.1</Beauty>  
 					<MarketValue>0.4</MarketValue>
