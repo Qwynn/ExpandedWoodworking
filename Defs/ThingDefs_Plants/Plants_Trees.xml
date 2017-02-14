@@ -2,7 +2,7 @@
 
 <!-- Wood Trees -->
 
-	<ThingDef ParentName="TreeBase">
+	<ThingDef ParentName="VG_TreewoodBase">
 		<defName>PlantTreeOak</defName>
 		<label>oak tree</label>
 		<description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
@@ -25,7 +25,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreeBase">
+	<ThingDef ParentName="VG_TreewoodBase">
 		<defName>PlantTreePoplar</defName>
 		<label>poplar tree</label>
 		<description>A softwood tree. Grows fast, but yield little useful wood.</description>
@@ -51,7 +51,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreeBase">
+	<ThingDef ParentName="VG_TreewoodBase">
 		<defName>PlantTreePine</defName>
 		<label>pine tree</label>
 		<description>A large conifer.</description>
@@ -83,7 +83,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreeBase">
+	<ThingDef ParentName="VG_TreewoodBase">
 		<defName>PlantTreeBirch</defName>
 		<label>birch tree</label>
 		<description>A northern tree known for its thin, paper-like bark.</description>
@@ -113,7 +113,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreeBase">
+	<ThingDef ParentName="VG_TreewoodBase">
 		<defName>PlantTreeCecropia</defName>
 		<label>cecropia tree</label>
 		<description>One of the most common rainforest trees. Grows very fast, but yields little usable wood.</description>
@@ -135,7 +135,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreeBase">
+	<ThingDef ParentName="VG_TreewoodBase">
 		<defName>PlantTreeTeak</defName>
 		<label>teak tree</label>
 		<description>A very strong hardwood tree, used in ancient times to build sailing ships.</description>

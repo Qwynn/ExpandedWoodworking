@@ -1,6 +1,6 @@
 ﻿<ThingDefs>
 
-<!-- Fueled -->	
+<!-- Fueled -->		
 	
 	<ThingDef ParentName="BenchBase">
 		<defName>FueledStove</defName>
@@ -75,7 +75,7 @@
 			<heatPerTickWhileWorking>0.25</heatPerTickWhileWorking>
 		</building>
 	</ThingDef>
-
+	
 	<ThingDef ParentName="BenchBase">
 		<DefName>FueledSmithy</DefName>
 		<label>fueled smithy</label>
@@ -146,9 +146,9 @@
 		<researchPrerequisites>
 			<li>Smithing</li>
 		</researchPrerequisites>
-	</ThingDef>	
-	
-<!-- Unpowered -->
+	</ThingDef>
+
+<!-- Unpowered -->	
 
     <ThingDef ParentName="BuildingBase">
         <DefName>TableWoodworking</DefName>
@@ -160,6 +160,12 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(3,1)</drawSize>
         </graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>70</costStuffCount>
         <CostList>
             <Steel>30</Steel>
         </CostList>

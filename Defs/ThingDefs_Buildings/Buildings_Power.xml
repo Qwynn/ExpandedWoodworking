@@ -1,6 +1,6 @@
 ﻿<Buildings>
 
-<!-- Fueled -->
+<!-- Fueled -->	
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>FueledGenerator</defName>

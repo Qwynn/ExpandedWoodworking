@@ -1,16 +1,16 @@
 ﻿<ThingCategoryDefs>
 
-<!-- Woodtypes -->
+<!-- Woodtypes -->	
 
     <ThingCategoryDef>
         <defName>WoodTypes</defName>
         <label>wood types</label>
         <parent>ResourcesRaw</parent>
-        <resourceReadoutRoot>true</resourceReadoutRoot>
+        <resourceReadoutRoot>false</resourceReadoutRoot>
         <iconPath>Resources/BasicWoodLog</iconPath>
     </ThingCategoryDef>
 	
-<!-- Lumber -->	
+<!-- Lumber -->		
 	
     <ThingCategoryDef>
 		<defName>WoodLumber</defName>

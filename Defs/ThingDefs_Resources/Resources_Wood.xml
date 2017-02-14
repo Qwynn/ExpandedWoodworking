@@ -26,7 +26,10 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
-			<stuffAdjective>oak wood</stuffAdjective>	
+			<categories>
+				<li>RawWoody</li>
+			</categories>
+			<stuffAdjective>oak</stuffAdjective>	
 			<commonality>1.00</commonality>
 			<color>(181,137,88)</color>
 			<constructEffect>ConstructWood</constructEffect>
@@ -90,7 +93,10 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
-		<stuffAdjective>poplar wood</stuffAdjective>
+			<categories>
+				<li>RawWoody</li>
+			</categories>
+			<stuffAdjective>poplar</stuffAdjective>
 			<commonality>1.00</commonality>
 			<color>(207,174,129)</color>
 			<constructEffect>ConstructWood</constructEffect>
@@ -154,7 +160,10 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
-		<stuffAdjective>pine wood</stuffAdjective>
+			<categories>
+				<li>RawWoody</li>
+			</categories>
+			<stuffAdjective>pine</stuffAdjective>
 			<commonality>1.00</commonality>
 			<color>(241,190,133)</color>
 			<constructEffect>ConstructWood</constructEffect>
@@ -218,7 +227,10 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
-			<stuffAdjective>birch wood</stuffAdjective>
+			<categories>
+				<li>RawWoody</li>
+			</categories>
+			<stuffAdjective>birch</stuffAdjective>
 			<commonality>1.00</commonality>
 			<color>(251,217,172)</color>
 			<constructEffect>ConstructWood</constructEffect>
@@ -282,7 +294,10 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
-			<stuffAdjective>cecropia wood</stuffAdjective>
+			<categories>
+				<li>RawWoody</li>
+			</categories>
+			<stuffAdjective>cecropia</stuffAdjective>
 			<commonality>1.00</commonality>
 			<color>(123,47,24)</color>
 			<constructEffect>ConstructWood</constructEffect>
@@ -346,7 +361,10 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
-			<stuffAdjective>teak wood</stuffAdjective>
+			<categories>
+				<li>RawWoody</li>
+			</categories>
+			<stuffAdjective>teak</stuffAdjective>
 			<commonality>1.00</commonality>
 			<color>(120,86,51)</color>
 			<constructEffect>ConstructWood</constructEffect>
@@ -385,5 +403,5 @@
 			<LumberTeak>30</LumberTeak>
 		</butcherProducts>		
 	</ThingDef>
-
+	
 </Resources>
