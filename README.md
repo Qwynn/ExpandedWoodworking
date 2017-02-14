@@ -24,6 +24,8 @@ Expanded Woodworking overwrites the following vanilla definitions and will confl
 - Torch lamp
 - Campfire
 - Passive cooler
+- Deadfall trap
+- Horseshoe pin
 
 ## Found a Bug?
 Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Qwynn/ExpandedWoodworking/issues). Please provide your exported HugsLib log.
