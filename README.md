@@ -26,6 +26,12 @@ Expanded Woodworking overwrites the following vanilla definitions and will confl
 - Passive cooler
 - Deadfall trap
 - Horseshoe pin
+- Shiv
+- Club
+- Spear
+- Pila
+- Short bow
+- Great bow
 
 ## Found a Bug?
 Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Qwynn/ExpandedWoodworking/issues). Please provide your exported HugsLib log.
@@ -34,6 +40,6 @@ Make sure you have developer mode enabled in Rimworld before creating a bug repo
 All current and past versions of this mod can be downloaded from [GitHub](https://github.com/Qwynn/ExpandedWoodworking/releases).
 
 ## Version Number
-0.16.0.2
+0.16.0.3
 
 ## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
