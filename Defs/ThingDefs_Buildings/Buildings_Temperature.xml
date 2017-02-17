@@ -47,11 +47,11 @@
 				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
 				<fuelFilter>
 					<thingDefs>
-						<li>WoodLog_Oak</li>
-						<li>WoodLog_Poplar</li>
-						<li>WoodLog_Pine</li>
 						<li>WoodLog_Birch</li>
 						<li>WoodLog_Cecropia</li>
+						<li>WoodLog_Oak</li>
+						<li>WoodLog_Pine</li>
+						<li>WoodLog_Poplar</li>
 						<li>WoodLog_Teak</li>
 					</thingDefs>
 				</fuelFilter>
@@ -81,6 +81,9 @@
 			<li>MakePemmicanCampfire</li>
 			<li>BurnApparelCampfire</li>
 			<li>BurnDrugs</li>
+			<li>GrillKabob</li>
+			<li>Grillsteak</li>
+			<li>GrillVegetables</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

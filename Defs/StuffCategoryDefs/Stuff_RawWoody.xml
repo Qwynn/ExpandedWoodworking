@@ -2,9 +2,9 @@
 
 <!-- Raw Wood -->
 
-  <StuffCategoryDef>
-    <defName>RawWoody</defName>
-    <label>Log</label>
-  </StuffCategoryDef>
+	<StuffCategoryDef>
+		<defName>RawWoody</defName>
+		<label>Log</label>
+	</StuffCategoryDef>
   
 </Defs>

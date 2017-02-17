@@ -111,6 +111,13 @@
 			<li>Metallic</li>
 			<li>RawWoody</li>
 		</stuffCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
@@ -134,7 +141,7 @@
 		<stuffCategories>
 			<li>RawWoody</li>
 		</stuffCategories>	
-		<costStuffCount>30</costStuffCount>
+		<costStuffCount>90</costStuffCount>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
 			<Mass>0.8</Mass>
@@ -177,7 +184,14 @@
 		<soundInteract>Interact_BeatFire</soundInteract>
 		<stuffCategories>
 			<li>RawWoody</li>
-		</stuffCategories>	
+		</stuffCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>		
 		<costStuffCount>70</costStuffCount>
 		<statBases>
 			<WorkToMake>13000</WorkToMake>
@@ -214,7 +228,14 @@
 		<soundInteract>BowLarge</soundInteract>
 		<stuffCategories>
 			<li>RawWoody</li>
-		</stuffCategories>	
+		</stuffCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>		
 		<costStuffCount>50</costStuffCount>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>

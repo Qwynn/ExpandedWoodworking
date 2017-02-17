@@ -4,7 +4,7 @@
 	
 	<RecipeDef Name="MakeWoodLumberBase" Abstract="True">
 		<jobString>Processing lumber from wood.</jobString>
-		<workAmount>500</workAmount>
+		<workAmount>250</workAmount>
 		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -72,7 +72,7 @@
 	</RecipeDef>
 	
 	<RecipeDef ParentName="MakeWoodLumberBase">
-		<defName>MakeWoodLumberMixed</defName>
+		<defName>MakeWoodLumberMixedBundle</defName>
 		<label>Bundle lumber together</label>
 		<description>Bundle together random or spare pieces of lumber.</description>
 		<allowMixingIngredients>true</allowMixingIngredients>
@@ -103,7 +103,7 @@
 		<defName>MakeWoodLumberMixedHand</defName>
 		<label>Make lumber by hand</label>
 		<description>Process any random or spare raw logs into lumber for construction by hand. It's a tedious job.</description>
-		<workAmount>500</workAmount>
+		<workAmount>250</workAmount>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredients>
 			<li>
@@ -126,6 +126,37 @@
 		<recipeUsers>
 			<li>CraftingSpot</li>
 		</recipeUsers>
+	</RecipeDef>
+	
+<!-- Chemfuel -->
+
+	<RecipeDef>
+		<defName>MakeChemfuelFromWood</defName>
+		<label>make chemfuel from wood</label>
+		<description>Make a batch of chemfuel by gasifying wood logs.</description>
+		<jobString>Refining chemfuel from wood.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>WoodTypes</li>
+					</categories>
+				</filter>
+				<count>70</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>WoodTypes</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>35</Chemfuel>
+		</products>
+		<workSkill>Crafting</workSkill>
 	</RecipeDef>	
 
 </RecipeDefs>

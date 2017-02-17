@@ -2,7 +2,7 @@
 
 <!-- Walls -->
 
-	<ThingDef ParentName="BuildingBase" Name="Wall">
+	<ThingDef ParentName="BuildingBase">
 		<defName>WallLog</defName>
 		<label>log wall</label>
 		<thingClass>Building</thingClass>

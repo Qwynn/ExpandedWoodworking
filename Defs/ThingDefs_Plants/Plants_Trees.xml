@@ -2,88 +2,7 @@
 
 <!-- Wood Trees -->
 
-	<ThingDef ParentName="VG_TreewoodBase">
-		<defName>PlantTreeOak</defName>
-		<label>oak tree</label>
-		<description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
-		<graphicData>
-			<texPath>Things/Plant/TreeOak</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<statBases>
-			<Beauty>5</Beauty>
-		</statBases>
-		<plant>
-			<leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
-			<growDays>30</growDays>
-			<harvestWork>1000</harvestWork>
-			<harvestYield>50</harvestYield>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<harvestedThingDef>WoodLog_Oak</harvestedThingDef>
-		</plant>
-	</ThingDef>
-	
-	<ThingDef ParentName="VG_TreewoodBase">
-		<defName>PlantTreePoplar</defName>
-		<label>poplar tree</label>
-		<description>A softwood tree. Grows fast, but yield little useful wood.</description>
-		<graphicData>
-			<texPath>Things/Plant/TreePoplar</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<statBases>
-			<Beauty>3</Beauty>
-		</statBases>
-		<ingestible>
-			<nutrition>0.75</nutrition>
-		</ingestible>
-		<plant>
-			<leaflessGraphicPath>Things/Plant/TreePoplar_Leafless</leaflessGraphicPath>
-			<growDays>15.05</growDays>
-			<harvestWork>650</harvestWork>
-			<harvestYield>30</harvestYield>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<harvestedThingDef>WoodLog_Poplar</harvestedThingDef>
-		</plant>
-	</ThingDef>
-	
-	<ThingDef ParentName="VG_TreewoodBase">
-		<defName>PlantTreePine</defName>
-		<label>pine tree</label>
-		<description>A large conifer.</description>
-		<graphicData>
-			<texPath>Things/Plant/TreePine</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-				<shadowData>
-					<volume>(0.2, 0.3, 0.2)</volume>
-				</shadowData>
-		</graphicData>
-		<statBases>
-			<Beauty>5</Beauty>
-		</statBases>
-		<ingestible>
-			<nutrition>1</nutrition>
-		</ingestible>
-		<plant>
-			<visualSizeRange>
-				<min>1.3</min>
-				<max>3.0</max>
-			</visualSizeRange>
-			<growDays>20</growDays>
-			<harvestWork>700</harvestWork>
-			<harvestYield>30</harvestYield>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<harvestedThingDef>WoodLog_Pine</harvestedThingDef>
-		</plant>
-	</ThingDef>
-	
-	<ThingDef ParentName="VG_TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>PlantTreeBirch</defName>
 		<label>birch tree</label>
 		<description>A northern tree known for its thin, paper-like bark.</description>
@@ -113,7 +32,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="VG_TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>PlantTreeCecropia</defName>
 		<label>cecropia tree</label>
 		<description>One of the most common rainforest trees. Grows very fast, but yields little usable wood.</description>
@@ -134,8 +53,89 @@
 			<harvestedThingDef>WoodLog_Cecropia</harvestedThingDef>
 		</plant>
 	</ThingDef>
+
+	<ThingDef ParentName="TreeBase">
+		<defName>PlantTreeOak</defName>
+		<label>oak tree</label>
+		<description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeOak</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>5</Beauty>
+		</statBases>
+		<plant>
+			<leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+			<growDays>30</growDays>
+			<harvestWork>1000</harvestWork>
+			<harvestYield>50</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<harvestedThingDef>WoodLog_Oak</harvestedThingDef>
+		</plant>
+	</ThingDef>
 	
-	<ThingDef ParentName="VG_TreewoodBase">
+	<ThingDef ParentName="TreeBase">
+		<defName>PlantTreePine</defName>
+		<label>pine tree</label>
+		<description>A large conifer.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+				<shadowData>
+					<volume>(0.2, 0.3, 0.2)</volume>
+				</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>5</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>1</nutrition>
+		</ingestible>
+		<plant>
+			<visualSizeRange>
+				<min>1.3</min>
+				<max>3.0</max>
+			</visualSizeRange>
+			<growDays>20</growDays>
+			<harvestWork>700</harvestWork>
+			<harvestYield>30</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<harvestedThingDef>WoodLog_Pine</harvestedThingDef>
+		</plant>
+	</ThingDef>	
+	
+	<ThingDef ParentName="TreeBase">
+		<defName>PlantTreePoplar</defName>
+		<label>poplar tree</label>
+		<description>A softwood tree. Grows fast, but yield little useful wood.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreePoplar</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>0.75</nutrition>
+		</ingestible>
+		<plant>
+			<leaflessGraphicPath>Things/Plant/TreePoplar_Leafless</leaflessGraphicPath>
+			<growDays>15.05</growDays>
+			<harvestWork>650</harvestWork>
+			<harvestYield>30</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<harvestedThingDef>WoodLog_Poplar</harvestedThingDef>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="TreeBase">
 		<defName>PlantTreeTeak</defName>
 		<label>teak tree</label>
 		<description>A very strong hardwood tree, used in ancient times to build sailing ships.</description>

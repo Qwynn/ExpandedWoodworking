@@ -46,11 +46,11 @@
 				<fuelCapacity>75.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>WoodLog_Oak</li>
-						<li>WoodLog_Poplar</li>
-						<li>WoodLog_Pine</li>
 						<li>WoodLog_Birch</li>
 						<li>WoodLog_Cecropia</li>
+						<li>WoodLog_Oak</li>
+						<li>WoodLog_Pine</li>
+						<li>WoodLog_Poplar</li>
 						<li>WoodLog_Teak</li>
 					</thingDefs>
 				</fuelFilter>
