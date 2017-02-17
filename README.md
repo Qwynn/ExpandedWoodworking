@@ -39,7 +39,4 @@ Make sure you have developer mode enabled in Rimworld before creating a bug repo
 ## Older Versions
 All current and past versions of this mod can be downloaded from [GitHub](https://github.com/Qwynn/ExpandedWoodworking/releases).
 
-## Version Number
-0.16.0.3
-
 ## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
