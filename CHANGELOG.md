@@ -1,6 +1,15 @@
 # Change Log
 
-**Current:** [v0.16.0.3](https://github.com/Qwynn/ExpandedWoodworking/releases/tag/v0.16.0.3)
+**Current:** [v0.16.0.4](https://github.com/Qwynn/ExpandedWoodworking/releases/tag/v0.16.0.4)
+
+## [0.16.0.4] - 2017-02-17
+### Added
+- Refinery chemfuel recipes now take raw logs.
+
+### Changed
+- Substantial code cleanup.
+- Fixed certain ajectives.
+- Can now bundle lumber together to create mixed lumber.
 
 ## [0.16.0.3] - 2017-02-13
 ### Added
