@@ -200,6 +200,32 @@
 	</ThingDef>  
   
 	<ThingDef ParentName="WoodLogBase">
+		<defName>WoodLog_Saguaro</defName>
+		<label>saguaro ribs</label>
+		<description>Ribs from a saguaro cactus. Saguaro is soft and excellent for making tools, handicrafts, fences, and other small structures.</description>
+		<graphicData>
+			<color>(223,191,140)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.2</Mass>
+			<MarketValue>1</MarketValue>
+			<DeteriorationRate>2</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>saguaro rib</stuffAdjective>
+			<commonality>0.30</commonality>
+			<color>(223,191,140)</color>
+			<statFactors>
+				<MaxHitPoints>0.2</MaxHitPoints>
+				<Beauty>0.60</Beauty>
+				<WorkToMake>0.3</WorkToMake>
+				<WorkToBuild>0.3</WorkToBuild>
+				<DoorOpenSpeed>0.8</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>  
+  
+	<ThingDef ParentName="WoodLogBase">
 		<defName>WoodLog_Teak</defName>
 		<label>teak logs</label>
 		<description>Raw wood from a teak tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Teak is the most durable hardwood.</description>
