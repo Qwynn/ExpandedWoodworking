@@ -1,3 +1,5 @@
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 [![RimWorld Alpha 16](https://img.shields.io/badge/RimWorld-Alpha 16-brightgreen.svg)](http://rimworldgame.com/)
 
 # Expanded Woodworking
@@ -38,5 +40,3 @@ Make sure you have developer mode enabled in Rimworld before creating a bug repo
 
 ## Older Versions
 All current and past versions of this mod can be downloaded from [GitHub](https://github.com/Qwynn/ExpandedWoodworking/releases).
-
-## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
