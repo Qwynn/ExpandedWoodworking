@@ -71,14 +71,14 @@
 				<DoorOpenSpeed>1.6</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
-	</ThingDef>
+	</ThingDef>	
 	
 	<ThingDef ParentName="WoodLumberBase">
 		<defName>LumberBirch</defName>
 		<label>birch lumber</label>
 		<description>Processed birch lumber. Mostly useful for building long-lasting, simple structures and furniture. Birch is a perishable hardwood.</description>
 		<graphicData>
-			<color>(251,217,172))</color>
+			<color>(251,217,172)</color>
 		</graphicData>
 		<statBases>
 			<Mass>0.4</Mass>

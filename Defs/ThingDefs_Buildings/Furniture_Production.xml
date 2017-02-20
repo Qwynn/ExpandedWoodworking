@@ -47,11 +47,6 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<comps>
-			<li Class="CompProperties_AffectedByFacilities">
-				<linkableFacilities>
-					<li>CookingTools</li>
-				</linkableFacilities>
-			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>160.0</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>

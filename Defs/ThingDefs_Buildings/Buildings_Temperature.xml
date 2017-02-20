@@ -81,9 +81,6 @@
 			<li>MakePemmicanCampfire</li>
 			<li>BurnApparelCampfire</li>
 			<li>BurnDrugs</li>
-			<li>GrillKabob</li>
-			<li>Grillsteak</li>
-			<li>GrillVegetables</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
