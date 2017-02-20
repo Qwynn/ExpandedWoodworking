@@ -23,6 +23,7 @@ Expanded Woodworking overwrites the following vanilla definitions and will confl
 - Wood
 - Fueled stove
 - Fueled smithy
+- Butcher table
 - Torch lamp
 - Campfire
 - Passive cooler
