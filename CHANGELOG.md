@@ -1,32 +1,40 @@
 # Change Log
 
-**Current:** [v0.16.0.4](https://github.com/Qwynn/ExpandedWoodworking/releases/tag/v0.16.0.4)
+**Current:** [v0.16.0.5](https://github.com/Qwynn/ExpandedWoodworking/releases/tag/v0.16.0.5)
+
+## [0.16.0.5] - 2017-02-20
+### New
+- Saguaro cacti now drop saguaro ribs.
+
+### Fixed
+- Butcher tables no longer always require mixed lumber.
+- The lumber recipe now properly looks for lumber instead of stone blocks when set to *Do Until X*.
+- Removed all references to Vegetable Garden in the base version, again.
+- The speed of crafting lumber has been reduced.
 
 ## [0.16.0.4] - 2017-02-17
-### Added
-- Refinery chemfuel recipes now take raw logs.
-- Wood and lumber statistics have been rebalanced to make woodtypes unique.
-
-### Changed
+### New
 - Substantial code cleanup.
-- Fixed certain ajectives.
-- Can now bundle lumber together to create mixed lumber.
+- Creating chemfuel at a refinery now requires any type of raw log.
+- Wood and lumber statistics have been rebalanced to make woodtypes unique.
+- Spare lumber can now be bundled together to make mixed lumber.
+
+### Fixed
+- Objects built with ironwood are no longer described as being made of willow.
 
 ## [0.16.0.3] - 2017-02-13
-### Added
+### New
 - Log walls.
-
-### Changed
-- Woodworking tables is now stuffed for stone, wood, and metal.
-- Torch lamps is now stuffed for raw wood.
-- Horseshoe pins is now stuffed for raw wood.
-- Passive coolers is now stuffed for raw wood.
-- Campfires are now stuffed for raw wood.
-- Deadfall traps are now stuffed for raw wood.
-- Mixed lumber can be handcrafted at a crafting spot.
-- Neolithic shivs, clubs, spears, pilas, and bows are now crafted with raw wood.
+- Mixed lumber can be crafted by hand at a crafting spot.
+- Woodworking tables are now stuffed for stone, wood, and metal.
+- Torch lamps are now stuffed for raw logs.
+- Horseshoe pines are now stuffed for raw logs.
+- Passive coolers are now stuffed for raw logs.
+- Campfires are now stuffed for raw logs.
+- Deadfall traps are now stuffed for raw logs.
+- The following neolithic weapons are now crafted with raw logs: Shivs, clubs, spears, pilas, short bows, and great bows.
 
 ## [0.16.0.2] - 2017-02-11
-### Changed
-- Made crafting recipes more clear.
-- Fixed mixed lumber recipe only giving half of its intended output.
+### Fixed
+- The description of lumber recipes are now clearer.
+- The mixed lumber recipe now gives the proper amount of lumber.
