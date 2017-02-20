@@ -4,13 +4,13 @@
 	
 	<RecipeDef Name="MakeWoodLumberBase" Abstract="True">
 		<jobString>Processing lumber from wood.</jobString>
-		<workAmount>250</workAmount>
+		<workAmount>500</workAmount>
 		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<targetCountAdjustment>15</targetCountAdjustment>
+	<!--<targetCountAdjustment>15</targetCountAdjustment>-->
 	</RecipeDef>
 
 <!-- Lumber -->		
@@ -103,7 +103,7 @@
 		<defName>MakeWoodLumberMixedHand</defName>
 		<label>Make lumber by hand</label>
 		<description>Process any random or spare raw logs into lumber for construction by hand. It's a tedious job.</description>
-		<workAmount>250</workAmount>
+		<workAmount>750</workAmount>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredients>
 			<li>
