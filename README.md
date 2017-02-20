@@ -39,7 +39,7 @@ Expanded Woodworking overwrites the following vanilla definitions:
 **Currently incompatible with [Minerals and Materials](https://steamcommunity.com/sharedfiles/filedetails/?id=728233992).**
 
 ## Found a Bug?
-Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Qwynn/ExpandedWoodworking/issues). Please provide your exported HugsLib log.
+When making a bug report, please make sure you have developer mode enabled in the Rimworld settings. You may then create your report [here](https://github.com/Qwynn/ExpandedWoodworking/issues). A link to your exported HugsLib log would be greatly appreciated as well.
 
 ## Older Versions
 All current and past versions of this mod can be downloaded from [GitHub](https://github.com/Qwynn/ExpandedWoodworking/releases).
