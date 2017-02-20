@@ -17,7 +17,7 @@ Drop the latest release into your `RimWorld/Mods` folder.
 - Realistic wood colours!
 
 ## Compatibility
-Expanded Woodworking overwrites the following vanilla definitions and will conflict with any other mods which also edits these:
+Expanded Woodworking overwrites the following vanilla definitions:
 
 - Trees
 - Wood
